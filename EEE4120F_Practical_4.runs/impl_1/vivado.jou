@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon May 18 17:47:42 2020
+# Process ID: 4424
+# Current directory: C:/Users/reese/OneDrive/Documents/University/EEE4120F/EEE4120F_Practical_4/EEE4120F_Practical_4.runs/impl_1
+# Command line: vivado.exe -log Clock.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Clock.tcl -notrace
+# Log file: C:/Users/reese/OneDrive/Documents/University/EEE4120F/EEE4120F_Practical_4/EEE4120F_Practical_4.runs/impl_1/Clock.vdi
+# Journal file: C:/Users/reese/OneDrive/Documents/University/EEE4120F/EEE4120F_Practical_4/EEE4120F_Practical_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Clock.tcl -notrace

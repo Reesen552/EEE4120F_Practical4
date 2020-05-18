@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EEE4120F_Practical_4.srcs/sources_1/imports/sources_1/imports/sources/BCD_Decoder.v" \
+"../../../../EEE4120F_Practical_4.srcs/sources_1/imports/sources_1/imports/sources/Clock.v" \
+"../../../../EEE4120F_Practical_4.srcs/sources_1/imports/sources_1/new/Debounce.v" \
+"../../../../EEE4120F_Practical_4.srcs/sources_1/imports/sources_1/imports/sources/Delay_Reset.v" \
+"../../../../EEE4120F_Practical_4.srcs/sources_1/imports/sources_1/imports/sources/PWM.v" \
+"../../../../EEE4120F_Practical_4.srcs/sources_1/imports/sources_1/imports/sources/SS_Driver.v" \
+"../../../../EEE4120F_Practical_4.srcs/tb_Clock/imports/new/tb_clock.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

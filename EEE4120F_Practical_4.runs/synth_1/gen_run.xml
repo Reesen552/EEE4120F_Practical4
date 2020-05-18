@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1589816739">
+  <File Type="PA-TCL" Name="Clock.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Clock_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Clock_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Clock.vds"/>
+  <File Type="RDS-UTIL" Name="Clock_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Clock_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Clock.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Clock_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Clock_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources/BCD_Decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/sources_1/imports/sources/BCD_Decoder.v"/>
+        <Attr Name="ImportTime" Val="1589728349"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/sources_1/new/Debounce.v"/>
+        <Attr Name="ImportTime" Val="1589569224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources/Delay_Reset.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/sources_1/imports/sources/Delay_Reset.v"/>
+        <Attr Name="ImportTime" Val="1589790207"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources/PWM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/sources_1/imports/sources/PWM.v"/>
+        <Attr Name="ImportTime" Val="1589742369"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources/SS_Driver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/sources_1/imports/sources/SS_Driver.v"/>
+        <Attr Name="ImportTime" Val="1589790301"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/sources/Clock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/sources_1/imports/sources/Clock.v"/>
+        <Attr Name="ImportTime" Val="1589791175"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Clock"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/FPGA_WallClock_nexys7100t_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../EEE4120F_Prac5-master/EEE4120F_Prac5-master/projects/FPGA_WallClock/FPGA_WallClock.srcs/constrs_1/imports/constraints/FPGA_WallClock_nexys7100t_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1589476684"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
